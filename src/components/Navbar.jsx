@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='nav-container'>
         <div className='logo-container'>
-        <Avtar />
+        <Avtar src={icon} size="large"/>
         <Topography.Title level={2} className="Logo">
             <Link to="/">Cryptoverse</Link>
         </Topography.Title>
